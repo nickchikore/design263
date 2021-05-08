@@ -1,0 +1,38 @@
+
+<ng-container *ngFor="let section of page">
+
+<app-hero class="section fullspread about light"
+*ngIf="section.ref === 'corporate'"
+[title]="section.composition.heading"
+[text]="section.composition.description"
+></app-hero>
+
+</ng-container>
+<ng-container>
+  <ngb-carousel>
+    <ng-template ngbSlide *ngFor="let process of processes">
+      <div class="picsum-img-wrapper" *ngFor="let procedure of process.composition">
+        <img src="assets/img/banner/{{procedure.img}}.png" alt="{{procedure.title}}">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{process.name}}</h3>
+        <p>{{process.synopsis}}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</ng-container>
+
+<div class="fluid-container">
+  <h2>Our Method</h2>
+  <app-tile-row
+    [rowClass]="'kjhk'"
+    [rowTitle]="'kjkhj'"
+  >
+
+    <app-card *ngFor="let method of ethos"
+      [cardTitle]="method.title"
+      [cardText]="method.description"
+      [hasImg]="false"
+    ></app-card>
+  </app-tile-row>
+</div>

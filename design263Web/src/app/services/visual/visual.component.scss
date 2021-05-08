@@ -1,0 +1,39 @@
+.fluid-container {
+  display: flex;
+  padding: 16px;
+}
+
+.fluid-container * + * {
+  margin-left: 16px;
+}
+app-hero{
+  &:before {
+    z-index: 1;
+    background-color: transparent;
+  }
+  .container{
+    z-index: 2;
+  }
+  &.services{
+    background-color: #0874aa;
+    color: #fff;//#7ac8e7;
+
+    &:before {
+      background-image: url("/assets/img/lens.png");
+      background-position: bottom right;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index: 0;
+      opacity: 0.1;
+    }
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 900;
+  }
+  p{
+    font-size: 1.5em;
+    font-weight: 900;
+    margin: 0;
+  }
+}

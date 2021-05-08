@@ -1,0 +1,33 @@
+<app-hero class="section fullspread services" [dynamic]="false">
+  <div class="container">
+    <h2>Web consultancy services</h2>
+    <p>Design263 offer a wide range of web services . We specialise in web design and  development as well as application architecture and development. Our process ensures we get you the best possible result for your project.</p>
+    <div class="btn-wrapper">
+      <button class="btn btn-primary" (click)="initConsultationForm()">Book a consultation Today</button>
+      <button class="btn btn-primary" (click)="initInfoPack()">Request more information</button>
+    </div>
+  </div>
+
+</app-hero>
+
+<div class="fluid-container">
+
+
+  <app-tile-row class="services" [showTitle]="true" [rowTitle]="'Browse through some of our web services , we might just have something you need'">
+
+<div class="wrapper">
+  <ng-container *ngFor="let service of services">
+    <app-card class="four-across"
+      [cardTitle]="service.name"
+      [cardClass]="service.ref"
+      [ctaUrl]="service.url"
+      [subTitle]="service.summary"
+      [cta]="'Find out more'"
+      [avatar]="service.avatar"
+      [img]="service.img"
+    ></app-card>
+  </ng-container>
+</div>
+</app-tile-row>
+</div>
+

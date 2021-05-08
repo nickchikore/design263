@@ -1,0 +1,46 @@
+.fluid-container .services{
+  display: flex;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.fluid-container .services * + * {
+  margin-left: 16px;
+}
+:host{
+  flex-direction: column;
+  app-hero{
+    &:before {
+      z-index: 1;
+      background-color: transparent;
+    }
+    .container{
+      z-index: 2;
+    }
+    &.services{
+      background-color: #0874aa;
+      color: #fff;//#7ac8e7;
+
+      &:before {
+        background-image: url("/assets/img/chip.png");
+        background-position: top right;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.1;
+      }
+    }
+    h2 {
+      font-size: 3em;
+      font-weight: 900;
+    }
+    p{
+      font-size: 1.5em;
+      font-weight: 900;
+      margin: 0;
+    }
+  }
+  .wrapper {
+    display: flex;
+    overflow-x: auto;
+  }
+}

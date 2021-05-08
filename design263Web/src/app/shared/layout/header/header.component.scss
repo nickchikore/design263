@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  color: #65c1e3;
+  font-weight: 400;
+  font-family: 'Raleway';
+  &:hover{
+    color: darken(#65c1e3, 10);
+  }
+}

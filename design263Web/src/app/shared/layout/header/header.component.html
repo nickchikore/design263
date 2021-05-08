@@ -1,0 +1,43 @@
+<header>
+  <div class="brand">
+    <a href="/home">
+      <img src="./assets/img/logo-full.png" alt="Design263 Ltd - Media solutions and web consultants">
+    </a>
+  </div>
+  <div class="wrapper">
+    <div class="navbar" >
+      <ul ngbNav>
+        <li *ngFor="let item of sections">
+          <ng-container *ngIf="item.ref==='corporate'">
+            <a class="nav-link" href="{{item.url}}">Who we are</a>
+          </ng-container>
+        </li>
+        <li *ngFor="let service of ourServices">
+          <a class="nav-link" href="/services/{{service.url}}">{{service.name}}</a>
+          <!--        <ng-container *ngIf="item.ref==='services'">-->
+          <!--          <a class="nav-link" href="{{item.url}}">{{item.name}}</a>-->
+          <!--          <div >-->
+          <!--              <div>-->
+          <!--                <ng-container *ngFor="let task of service">-->
+          <!--                  <a class="nav-link" href="{{task.url}}">{{task.name}}</a>-->
+          <!--                </ng-container>-->
+          <!--              </div>-->
+          <!--          </div>-->
+          <!--        </ng-container>-->
+        </li>
+        <li>
+          <ng-container>
+            <a class="nav-link" href="/services/packages">Packages</a>
+          </ng-container>
+        </li>
+        <li>
+          <ng-container>
+            <a class="nav-link" href="/contact-us">Contact us</a>
+          </ng-container>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</header>
+<!--<h1 class="hidden">{{title | titlecase}}</h1>-->

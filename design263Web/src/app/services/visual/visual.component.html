@@ -1,0 +1,23 @@
+<app-hero class="section fullspread services" [dynamic]="false">
+  <div class="container">
+    <h2>Visual media</h2>
+    <p>Design263 creates visual design elements to capture the imagination of users. We create engaging content for media like Youtube, Tiktok and Instagram. </p>
+    <div class="btn-wrapper">
+      <button class="btn btn-primary" (click)="initConsultationForm()">Book a consultation Today</button>
+      <button class="btn btn-primary" (click)="initInfoPack()">Request more information</button>
+    </div>
+  </div>
+
+</app-hero>
+<div class="fluid-container">
+  <ng-container  *ngFor="let service of services">
+    <app-card
+      [cardTitle]="service.name"
+      [cardClass]="service.ref"
+      [ctaUrl]="service.url"
+      [subTitle]="service.summary"
+      [cta]="'Find out more'"
+      [avatar]="service.avatar"
+    ></app-card>
+  </ng-container>
+</div>

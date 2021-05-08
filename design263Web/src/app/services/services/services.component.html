@@ -1,0 +1,8 @@
+<ng-container *ngFor="let section of page">
+ <div class="section" title="{{section.name}}" *ngIf="section.ref ==='service'">
+   <h2>{{section.composition.heading}}</h2>
+   <p>{{section.composition.description}}</p>
+ </div>
+</ng-container>
+
+

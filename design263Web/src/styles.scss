@@ -1,1 +1,141 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway:wght@100;400;900&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+//typography
+h1, h2, h3 , h4, blockquote{
+  font-family: 'Raleway', sans-serif;
+}
+.display{
+  font-weight: 900;
+}
+
+.hidden{
+  display:none;
+}
+
+img{
+  max-width:calc(100% - 32px);
+}
+.card-link {
+  color: #65c1e3;
+}
+app-root {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+app-header {
+  width: 100vw;
+  background: #0c415f;
+}
+
+app-web {
+  display: flex;
+  width: calc(100% - 0px);
+}
+
+app-web > div {
+  width: calc(100% - 0px);
+  overflow-x: auto;
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.fullspread {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.light {
+  color: white;
+}
+
+ngb-carousel.carousel {
+  //max-height: 400px;
+  height: 100vh;
+
+  .carousel-item{
+    height: inherit;
+    &.active {
+      display: flex;
+    }
+    flex-direction: row-reverse;
+  }
+  .picsum-img-wrapper {
+    max-width: 50vw;
+    z-index: 4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .carousel-caption {
+    position: unset;
+
+  }
+  .picsum-img-wrapper img {
+    width: inherit;
+  }
+
+  .carousel-inner {
+    min-height: 400px;
+    height: 100vh;
+  }
+
+}
+.btn-wrapper {
+  padding: 1rem 0;
+  justify-content: flex-end;
+  display: flex;
+  * + * {
+    margin-left: 1rem;
+  }
+  .btn-primary {
+    border: 1px solid #65c1e2;
+    color: #65c1e2;
+    background: transparent;
+    cursor: pointer;
+    &:hover{
+
+      border: 1px solid darken(#65c1e2, 10);
+      color: darken(#65c1e2, 10);
+    }
+  }
+}
+app-web{
+
+  app-tile-row {
+    * + * {
+      margin-left: 1rem;
+    }
+    h2 {
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 1.5rem;
+      padding: 1rem;
+      background: #0c415e;
+      color: white;
+      letter-spacing: .05rem;
+    }
+  }
+}

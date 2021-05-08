@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-img" *ngIf="hasImg">
+    <img src="assets/img/{{img}}.png" class="card-img-top" alt="{{cardTitle}}">
+  </div>
+  <div class="card-body">
+    <i class="{{avatar}}"></i>
+    <h5 class="card-title">{{cardTitle}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{subTitle}}</h6>
+    <p class="card-text">{{cardText}}</p>
+    <a href="services/{{ctaUrl}}" class="card-link">{{cta}}</a>
+  </div>
+</div>

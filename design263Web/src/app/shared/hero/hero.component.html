@@ -1,0 +1,7 @@
+<div class="wrapper" title="{{title}}" *ngIf="dynamic">
+
+  <h2 class="display pt-5">{{title}}</h2>
+  <p class="pb-5">{{text}}</p>
+
+</div>
+<ng-content *ngIf="!dynamic"></ng-content>
