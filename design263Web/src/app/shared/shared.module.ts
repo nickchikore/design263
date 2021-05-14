@@ -7,6 +7,7 @@ import {NgbNavModule} from "@ng-bootstrap/ng-bootstrap";
 import { HeroComponent } from './hero/hero.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { TileRowComponent } from './tile-row/tile-row.component';
+import { FormComponent } from './form/form.component';
 
 
 
@@ -16,7 +17,8 @@ import { TileRowComponent } from './tile-row/tile-row.component';
         CardComponent,
         HeroComponent,
         CarouselComponent,
-        TileRowComponent],
+        TileRowComponent,
+        FormComponent],
   exports: [
     HeaderComponent,
     CardComponent,

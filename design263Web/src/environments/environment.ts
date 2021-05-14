@@ -4,11 +4,8 @@
 
   export const environment = {
     production: false,
-    gdApiDomainNames: ['azurewebsites.net'],
+    d263ApiDomainNames: ['localhost:5000'],
     apiUrl: '/api/',
-    baseApi: 'https://offerings-qa-gd.azurewebsites.net/api/v1',
-    offeringsApi: 'https://offerings-qa-gd.azurewebsites.net/api/v1/offerings',
-    labsApi: 'https://labs-qa-gd.azurewebsites.net/api/v1/labs'
   };
 
 /*
