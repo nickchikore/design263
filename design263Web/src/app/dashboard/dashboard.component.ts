@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { VIEWS } from "../mock-data/view-data";
+import { VIEWS } from "../_mock-data/view-data";
 
 
 @Component({

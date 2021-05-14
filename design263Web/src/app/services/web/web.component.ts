@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { VIEWS } from 'src/app/mock-data/view-data';
+import { VIEWS } from 'src/app/_mock-data/view-data';
 
 @Component({
   selector: 'app-web',

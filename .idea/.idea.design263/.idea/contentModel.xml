@@ -22,8 +22,6 @@
           </e>
         </e>
         <e p="design263.db" t="Include" />
-        <e p="design263.db-shm" t="Include" />
-        <e p="design263.db-wal" t="Include" />
         <e p="design263API.csproj" t="IncludeRecursive" />
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
