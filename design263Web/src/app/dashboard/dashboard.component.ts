@@ -137,7 +137,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     //console.log(this.sections);
-    console.log(this.processes);
+    //console.log(this.processes);
 
   }
 

@@ -1,3 +1,4 @@
+import { ClientsDashboardComponent } from './clients/clients-dashboard/clients.component';
 import { PackageComponent } from './services/package/package.component';
 import { WebDevelopmentComponent } from './services/web-development/web-development.component';
 import { WebDesignComponent } from './services/web-design/web-design.component';
@@ -20,7 +21,7 @@ import {PackagesComponent} from "./packages/packages.component";
 import {ContactUsComponent} from "./contact-us/contact-us.component";
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: '', pathMatch: 'full', redirectTo: 'clients' },
   { path:'home',component: DashboardComponent},
   { path:'services', component: ServicesComponent},
   { path:'services/web-consultancy', component: WebComponent},
@@ -37,7 +38,8 @@ const routes: Routes = [
   { path:'services/visual-media/photography', component: PhotographyComponent},
   { path:'services/visual-media/videography', component: VideographyComponent},
   { path:'services/packages/create-a-package', component: CreateAPackageComponent},
-  { path:'contact-us', component: ContactUsComponent}
+  { path:'contact-us', component: ContactUsComponent},
+  {path:'clients',component: ClientsDashboardComponent}
 ];
 
 @NgModule({

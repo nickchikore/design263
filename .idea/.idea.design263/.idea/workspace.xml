@@ -24,10 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9af534-3580-445b-b637-a377702cf051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design263Web/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263Web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263Web/src/app/services/services/services.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/services/services/services.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263Web/src/app/shared/layout/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/shared/layout/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263Web/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/dashboard/dashboard.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621004253452</updated>
       <workItem from="1621004257902" duration="1438000" />
-      <workItem from="1621009320603" duration="2497000" />
+      <workItem from="1621009320603" duration="3381000" />
     </task>
     <servers />
   </component>

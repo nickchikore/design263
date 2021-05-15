@@ -23,6 +23,7 @@ namespace design263API
         {
             services.AddDbContext<DataContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
             services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "design263API", Version = "v1" });
@@ -42,7 +43,7 @@ namespace design263API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(x => x.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:4200"));
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

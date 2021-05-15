@@ -11,7 +11,8 @@ import { PackagesComponent } from './packages/packages.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CreateAPackageComponent } from './create-a-package/create-a-package.component';
 import {NgbAccordionModule, NgbCarouselModule} from "@ng-bootstrap/ng-bootstrap";
-
+import { ClientsModule } from './clients/clients.module';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,8 @@ import {NgbAccordionModule, NgbCarouselModule} from "@ng-bootstrap/ng-bootstrap"
     SharedModule,
     NgbAccordionModule,
     NgbCarouselModule,
+    ClientsModule,
+    HttpClientModule
 
   ],
   providers: [],
