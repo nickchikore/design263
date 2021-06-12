@@ -24,14 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9af534-3580-445b-b637-a377702cf051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design263Web/src/app/clients/clients/clients.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.design263/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.design263/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263Web/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263Web/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Data/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Data/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Entities/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/design263.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/design263API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/design263API.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +49,17 @@
       <list>
         <option value="$PROJECT_DIR$/design263.API/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/design263API/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/design263API/Controllers/BaseApiController.cs" />
+        <option value="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/design263API/Extensions/ClaimsPrincipleExtensions.cs" />
+        <option value="$PROJECT_DIR$/design263API/Extensions/DateTimeExtensions.cs" />
+        <option value="$PROJECT_DIR$/design263API/Extensions/IdentityServiceExtensions.cs" />
+        <option value="$PROJECT_DIR$/design263API/Data/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/design263API/Entities/AppUser.cs" />
+        <option value="$PROJECT_DIR$/design263API/Extensions/ApplicationServiceExtensions.cs" />
         <option value="$PROJECT_DIR$/design263API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/design263API/Startup.cs" />
-        <option value="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/design263API/Program.cs" />
       </list>
     </option>
   </component>
@@ -66,6 +77,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -141,6 +153,7 @@
       <updated>1621004253452</updated>
       <workItem from="1621004257902" duration="1438000" />
       <workItem from="1621009320603" duration="3381000" />
+      <workItem from="1623439514856" duration="6542000" />
     </task>
     <servers />
   </component>
@@ -169,5 +182,9 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="229" y="56" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1621011064709" />
+    <state x="664" y="32" width="657" height="735" key="find.popup" timestamp="1623440514810">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state x="664" y="32" width="657" height="735" key="find.popup/0.25.1440.797@0.25.1440.797" timestamp="1623440514810" />
   </component>
 </project>
