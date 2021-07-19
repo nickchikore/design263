@@ -1,11 +1,12 @@
 export interface View{
   id: number;
   name: string;
-  ref:string;
-  type:string;
+  ref: string;
+  type: string;
   index: number;
-  url:string;
+  url: string;
   sections: any;
-  composition:any;
-  testimonials?:any;
+  composition: any;
+  testimonials?: any;
 }
+

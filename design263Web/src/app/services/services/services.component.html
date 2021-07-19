@@ -1,8 +1,18 @@
-<ng-container *ngFor="let section of page">
- <div class="section" title="{{section.name}}" *ngIf="section.ref ==='service'">
-   <h2>{{section.composition.heading}}</h2>
-   <p>{{section.composition.description}}</p>
- </div>
-</ng-container>
+<div>
+  <h2>Create/Edit Services</h2>
+  <label for="new-hero">Service </label>
+  <input id="new-hero" #serviceName />
+  <button class="add-button" (click)="add(serviceName.value); serviceName.value=''">
+    Add new service
+  </button>
+</div>
 
-
+<ul class="heroes">
+  <li *ngFor="let offering of offerings">
+    <a routerLink="/edit/{{offering.name}}">
+      <span class="badge">{{offering.name}}</span> {{offering.name}}
+    </a>
+    <button class="delete" title="delete service"
+            (click)="delete(offering)">x</button>
+  </li>
+</ul>

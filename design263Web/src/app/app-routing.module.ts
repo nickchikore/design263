@@ -16,30 +16,35 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { VisualComponent } from './services/visual/visual.component';
 import { WebComponent } from './services/web/web.component';
-import {DashboardComponent} from "./dashboard/dashboard.component";
-import {PackagesComponent} from "./packages/packages.component";
-import {ContactUsComponent} from "./contact-us/contact-us.component";
+import {DashboardComponent} from './dashboard/dashboard.component';
+import {PackagesComponent} from './packages/packages.component';
+import {ContactUsComponent} from './contact-us/contact-us.component';
+import {ServicesDashboardComponent} from "./services/services-dashboard/services-dashboard.component";
+import {ServicesDetailsComponent} from "./services/services-details/services-details.component";
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'clients' },
-  { path:'home',component: DashboardComponent},
-  { path:'services', component: ServicesComponent},
-  { path:'services/web-consultancy', component: WebComponent},
-  { path:'services/visual-media', component: VisualComponent},
-  { path:'services/packages', component: PackagesComponent},
-  { path:'services/packages/id/package', component: PackageComponent},
-  { path:'services/web-consultancy/web-development', component: WebDevelopmentComponent},
-  { path:'services/web-consultancy/web-design', component: WebDesignComponent},
-  { path:'services/web-consultancy/content-auditing', component: ContentAuditingComponent},
-  { path:'services/web-consultancy/search-engine-optimisation', component: SeoComponent},
-  { path:'services/web-consultancy/ux', component: UxComponent},
-  { path:'services/web-consultancy/analytics', component: AnalyticsComponent},
-  { path:'services/web-consultancy/social-media-marketing', component: SocialMediaMarketingComponent},
-  { path:'services/visual-media/photography', component: PhotographyComponent},
-  { path:'services/visual-media/videography', component: VideographyComponent},
-  { path:'services/packages/create-a-package', component: CreateAPackageComponent},
-  { path:'contact-us', component: ContactUsComponent},
-  {path:'clients',component: ClientsDashboardComponent}
+  { path: 'home', component: DashboardComponent},
+  { path: 'services', component: ServicesComponent},
+  { path: 'services/web-consultancy', component: WebComponent},
+  { path: 'services/visual-media', component: VisualComponent},
+  { path: 'services/packages', component: PackagesComponent},
+  { path: 'services/packages/id/package', component: PackageComponent},
+  { path: 'services/web-consultancy/web-development', component: WebDevelopmentComponent},
+  { path: 'services/web-consultancy/web-design', component: WebDesignComponent},
+  { path: 'services/web-consultancy/content-auditing', component: ContentAuditingComponent},
+  { path: 'services/web-consultancy/search-engine-optimisation', component: SeoComponent},
+  { path: 'services/web-consultancy/ux', component: UxComponent},
+  { path: 'services/web-consultancy/analytics', component: AnalyticsComponent},
+  { path: 'services/web-consultancy/social-media-marketing', component: SocialMediaMarketingComponent},
+  { path: 'services/visual-media/photography', component: PhotographyComponent},
+  { path: 'services/visual-media/videography', component: VideographyComponent},
+  { path: 'services/packages/create-a-package', component: CreateAPackageComponent},
+  { path: 'contact-us', component: ContactUsComponent},
+  {path: 'clients', component: ClientsDashboardComponent},
+  { path: '', redirectTo: '/services-dashboard', pathMatch: 'full' },
+  { path: 'services-dashboard', component: ServicesDashboardComponent },
+  { path: 'detail/:id', component: ServicesDetailsComponent },
+  { path: 'services', component: ServicesComponent }
 ];
 
 @NgModule({

@@ -7,5 +7,6 @@ namespace design263API.Data
     {
         public DataContext(DbContextOptions options) : base(options) { }
         public DbSet<AppUser> Users { get; set; }
+        public DbSet<Offering> Offerings { get; set; }
     }
 }

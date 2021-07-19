@@ -1,0 +1,75 @@
+[
+    {
+      "id": 2,
+      "name": "Photography",
+      "classRef": "photography",
+      "index": 1,
+      "url": "photography",
+      "avatar": "",
+      "imageRef": "",
+      "summary": "",
+      "offering": [
+        {
+          "id":1,
+          "name":"Wedding Package - Economy",
+          "details":{}     
+        }
+      ],
+      "packages": [
+        {
+          "id": 1,
+          "name": "economy",
+          "packageInfo": {
+            "packageId": 1,
+            "title": "",
+            "description": "",
+            "imgUrl": "",
+            "refIcon": "",
+            "inPackageOfferings": [
+              {
+                "OfferingId": 1,
+                "offering": "",
+                "rate": 1
+              }
+            ]
+          },
+          "rate": 0
+        }
+      ],
+      "composition": {
+        "title": "Photography",
+        "metatags": [
+          "photo production",
+          "photo editing"
+        ],
+        "description": "",
+        "heading": "",
+        "subheading": "",
+        "synopsis": ""
+      },
+      "testimonials": [
+        {
+          "testimonialId": 1,
+          "testimonialClientReference": {
+            "clientId": 1,
+            "clientName": "",
+            "sector": "",
+            "jobs": [
+              "a",
+              "a"
+            ],
+            "testimonialDetails": {
+              "title": "",
+              "description": "",
+              "rating": 1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "a",
+        "a",
+        "b"
+      ]
+    }
+  ]

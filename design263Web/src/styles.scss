@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway:wght@100;400;900&display=swap');
 
 body{
@@ -138,4 +139,28 @@ app-web{
       letter-spacing: .05rem;
     }
   }
+}
+
+app-services-search{
+
+  .search {
+    flex-direction: column;
+  }
+
+  .search ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .search li a {
+    display: block;
+    padding: 7px;
+  }
+
+  .search li a:hover {
+    text-decoration: none;
+    background: aliceblue;
+  }
+
 }

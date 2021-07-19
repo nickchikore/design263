@@ -24,22 +24,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9af534-3580-445b-b637-a377702cf051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design263API/Data/OfferingsData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design263API/Entities/Offerings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.design263/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.design263/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.design263/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Data/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Data/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Entities/AppUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design263API/design263.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263API/Data/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/Data/Seed.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design263API/design263API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/design263API/design263API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263Web/src/app/_mock-data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/_mock-data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design263Web/src/app/_models/views.ts" beforeDir="false" afterPath="$PROJECT_DIR$/design263Web/src/app/_models/views.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +66,12 @@
         <option value="$PROJECT_DIR$/design263API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/design263API/Startup.cs" />
         <option value="$PROJECT_DIR$/design263API/Program.cs" />
+        <option value="$PROJECT_DIR$/design263API/Data/Seed.cs" />
+        <option value="$PROJECT_DIR$/design263API/Data/OfferingsData.json" />
+        <option value="$PROJECT_DIR$/design263API/Entities/Offerings.cs" />
+        <option value="$PROJECT_DIR$/design263API/Entities/Composition.cs" />
+        <option value="$PROJECT_DIR$/design263API/Entities/OfferingPackage.cs" />
+        <option value="$PROJECT_DIR$/design263API/Entities/Offering.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +165,7 @@
       <updated>1621004253452</updated>
       <workItem from="1621004257902" duration="1438000" />
       <workItem from="1621009320603" duration="3381000" />
-      <workItem from="1623439514856" duration="6542000" />
+      <workItem from="1623439514856" duration="11733000" />
     </task>
     <servers />
   </component>

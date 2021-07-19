@@ -28,5 +28,19 @@ namespace design263API.Data
             }
             await context.SaveChangesAsync();
         }
+        // public static async Task SeedOfferings(DataContext context)
+        // {
+        //     if (await context.Offerings.AnyAsync()) return;
+
+        //     var offeringData = await System.IO.File.ReadAllTextAsync("Data/OfferingsData.json");
+        //     var offerings = JsonSerializer.Deserialize<List<Offering>>(offeringData);
+
+        //     foreach(var offering in offerings)
+        //     {
+        //         using var hmac = new HMACSHA512();
+
+        //         offering.Name = Nam
+        //     }
+        // }
     }
 }
