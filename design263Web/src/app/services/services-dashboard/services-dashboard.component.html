@@ -1,0 +1,24 @@
+  <div class="container-fluid p-3 subnav">
+    <app-services-search [label]="'service'"></app-services-search>
+  </div>
+<div class="container pt-3">
+  <div class="hero">
+    <h2 class="">Services we provide!</h2>
+    <p>We provide services under three categories, Web design and architecture, Visual Design and Motion as well as Business design and tooling</p>
+  </div>
+  <div class="services mt-3">
+    <ng-container *ngFor="let offering of offerings">
+    <div class="{{offering.classRef}} card service col-md-4 m-1">
+      <div class="card-img"></div>
+      <div class="card-body">
+        <a routerLink="/detail/{{offering.id}}">
+          {{offering.name}}
+        </a>
+      </div>
+    </div>
+    </ng-container>
+  </div>
+</div>
+
+
+

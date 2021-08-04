@@ -1,0 +1,10 @@
+<div *ngIf="offering">
+  <h2>{{offering.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{offering.id}}</div>
+  <div>
+    <label for="offering-name">Service </label>
+    <input id="offering-name" [(ngModel)]="offering.name" placeholder="Offering name"/>
+  </div>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>

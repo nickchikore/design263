@@ -1,0 +1,14 @@
+<div id="search-component" class="d-flex search">
+  <div class="d-flex search-wrapper">
+    <input #searchBox class="form-control me-2" type="search" placeholder="Search for a {{label}}" aria-label="Search" (input)="search(searchBox.value)" />
+  </div>
+<ng-container *ngIf="(offerings$ | async) !== null">
+  <ul class="search-result">
+    <li *ngFor="let offering of offerings$ | async" >
+      <a routerLink="/detail/{{offering.id}}">
+        {{offering.name}}
+      </a>
+    </li>
+  </ul>
+</ng-container>
+</div>
